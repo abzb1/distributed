@@ -1,2 +1,2 @@
 # distributed
-distributedVGGtraining
+distributed VGG training
