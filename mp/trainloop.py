@@ -194,7 +194,7 @@ def mp_train_loop_first_prof(rank: int,
                                                       repeat=1,\
                                                       skip_first=100),
                                     on_trace_ready = torch.profiler.\
-                                                     tensorboard_trace_handler("./prof/intra_ddp_imageNet_VGGD_batchsize_"+\
+                                                     tensorboard_trace_handler("./prof/batchsize_"+\
                                                                                str(batch_size)+\
                                                                                "_worldsize_"+str(world_size)),
                                     record_shapes = True,
